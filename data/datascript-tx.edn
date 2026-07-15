@@ -1,0 +1,35 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "mex.ley-general-de-sociedades-mercantiles-1934"
+           :title "Ley General de Sociedades Mercantiles"
+           :jurisdiction "MEX"
+           :kind :law
+           :law-number "DOF 04-08-1934"
+           :url "https://wwwmat.sat.gob.mx/cs/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1461172350024&ssbinary=true"
+           :url-provenance :official-mexico-gov-mirror
+           :enacted-date "1934-08-04"
+           :last-revised-date "2016-03-14"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "mex.lfpdppp-2010"
+           :title "Ley Federal de Protección de Datos Personales en Posesión de los Particulares"
+           :jurisdiction "MEX"
+           :kind :law
+           :law-number "DOF 05-07-2010"
+           :url "https://www.gob.mx/cms/uploads/attachment/file/123648/Ley_Federal_de_Protecci_n_de_Datos_Personales_en_Posesi_n_de_los.pdf"
+           :url-provenance :official-mexico-gov-mirror
+           :enacted-date "2010-07-05"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "mex.ley-federal-del-trabajo-1970"
+           :title "Ley Federal del Trabajo"
+           :jurisdiction "MEX"
+           :kind :law
+           :law-number "DOF 01-04-1970"
+           :url "https://www.gob.mx/cms/uploads/attachment/file/156203/1044_Ley_Federal_del_Trabajo.pdf"
+           :url-provenance :official-mexico-gov-mirror
+           :enacted-date "1970-04-01"
+           :last-revised-date "2015-06-12"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
